@@ -1,6 +1,12 @@
 # SJunlimited
 python2.7 script for unix to reconnect your wifi with new mac adress when you run out of data on SJ network
 
+Use:
+
+sudo python sjunlimited.py
+
+
+
 Dependencies:
 
 macchanger
