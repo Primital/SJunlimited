@@ -1,9 +1,12 @@
 # SJunlimited
-unix script to automatically restart wifi with new mac adress when you run out of data on SJ train wifi
+unix script to reconnect your wifi with new mac adress when you run out of data on SJ network
+
+Dependencies:
+macchanger
+nmcli
 
 
-dependencies:
-macchanger - standardrepo
-twill - http://twill.idyll.org/
-
+Known issues:
+Sometimes the script will fail to up the interface, solution is:
+sudo ifconfig [your interface] down; sudo ifconfig [your interface] up
 
