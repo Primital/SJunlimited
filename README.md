@@ -1,4 +1,7 @@
-# SJunlimited
+# UPDATE 2018
+SJ has removed the data limit on the on-board WiFi, obviating the need for this script. Thus, it will no longer be maintained.
+
+# SJunlimited 
 python2.7 script for unix to reconnect your wifi with new mac adress when you run out of data on SJ network
 
 Use:
